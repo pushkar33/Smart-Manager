@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="516.0" minWidth="700.0" prefHeight="593.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="about.aboutDevViewController">
+   <children>
+      <Label layoutX="254.0" layoutY="14.0" text="About Developer">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="170.0" layoutX="42.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+      <ImageView fitHeight="168.0" fitWidth="170.0" layoutX="24.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" rotate="89.5">
+         <image>
+            <Image url="@Profile.jpeg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="txtMy" editable="false" layoutX="186.0" layoutY="59.0" prefHeight="223.0" prefWidth="486.0" promptText="Pushkar Goyal , an Inquisitive and energetic computer science student pursuing Bachelor of Technology from Baba Farid College Of Engineering And Technology .  I have created this application in order to supersede the traditional paperwork for Institution Mangement with an efficient and functional GUI application  developed in Java that proves to be utility  for effective and easy management ..  ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Separator layoutX="11.0" layoutY="285.0" prefHeight="10.0" prefWidth="678.0" />
+      <Label layoutX="218.0" layoutY="303.0" text="Under The Guidance Of">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="156.0" layoutX="498.0" layoutY="364.0" stroke="BLACK" strokeType="INSIDE" width="155.0" />
+      <ImageView fitHeight="149.0" fitWidth="157.0" layoutX="501.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RajeshSir.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="txtSir" editable="false" layoutX="43.0" layoutY="355.0" prefHeight="213.0" prefWidth="422.0" promptText="Rajesh K. Bansal is the founder and owner of Banglore Computer Education (BCE) and training head at Sun-Soft Technologies based in Bathinda. He is the author of Real Java and has developed the art of explaining even the most complicated topics in straight forward and easily understandable fashion ...">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

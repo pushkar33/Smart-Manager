@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="700.0" minWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.dashboardViewController">
+   <children>
+      <Label layoutX="210.0" layoutY="42.0" text="Institute Dashboard">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="11.0" layoutY="145.0" prefHeight="0.0" prefWidth="678.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="126.0" layoutX="21.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" width="130.0" />
+      <ImageView fitHeight="126.0" fitWidth="163.0" layoutX="21.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@maindash1.gif" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="250.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="474.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="30.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="250.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="474.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <ImageView fitHeight="150.0" fitWidth="171.0" layoutX="46.0" layoutY="187.0" onMouseClicked="#doOpenbatch" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tech2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="194.0" fitWidth="176.0" layoutX="263.0" layoutY="173.0" onMouseClicked="#doOpenadmission" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@submitpic.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="186.0" layoutX="481.0" layoutY="180.0" onMouseClicked="#doOpenbatchManager" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchpic1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="194.0" layoutX="35.0" layoutY="452.0" onMouseClicked="#doOpenStuGoogler" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@searchpic2.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="200.0" layoutX="250.0" layoutY="442.0" onMouseClicked="#doOpenFeecollector" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fee-payment-image.png" />
+         </image></ImageView>
+      <ImageView fitHeight="171.0" fitWidth="186.0" layoutX="484.0" layoutY="442.0" onMouseClicked="#doOpenFeeStat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@feestatus.png" />
+         </image></ImageView>
+      <ImageView fitHeight="36.0" fitWidth="114.0" layoutX="78.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="30.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Text layoutX="100.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batch">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font></Text>
+      <Text layoutX="294.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admission">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="493.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Batch Manager">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="45.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trainee Googler">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="280.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fee Collector">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="519.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fee Status">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="119.0" fitWidth="171.0" layoutX="500.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@maindash2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
